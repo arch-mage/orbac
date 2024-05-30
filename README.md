@@ -92,7 +92,8 @@ objects can be inferred as specified by the following derivation rule:
         permission(Org, Role, Activity, View, Context),
         empower(Org, Subject, Role),
         consider(Org, Action, Activity),
-        use(Org, Object, View),hold(Org, Subject, Action, Object, Context).
+        use(Org, Object, View),
+        hold(Org, Subject, Action, Object, Context).
 
 Similar rules are defined to infer the _is_prohibited_ and _is_obliged_
 predicates which represent concrete prohibitions and concrete obligations.
